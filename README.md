@@ -11,24 +11,29 @@ This example is a node-style web application that builds a user interface around
 ![demo application screenshot](https://raw.githubusercontent.com/sharedchains/bpmn-js-modeler-demo/master/docs/screenshot.png "Screenshot of the example application")
 
 
-## Building
+##  Building
 
-You need a [NodeJS](http://nodejs.org) development stack with [npm](https://npmjs.org) installed to build the project.
+You need a [NodeJS](http://nodejs.org) development stack with [npm](https://npmjs.org) installed to build the project and try our example.
 
-To install all project dependencies execute
+You need to check out also our latest bpmn-js branch version and link it to modeler. That’s why we are waiting for bpmn-js integration to create modeler pull request.
+Follow this steps:
 
+- **Clone our bpmn-js repository** from [here](https://github.com/sharedchains/bpmn-js.git), and checkout branch **feature/multipleDiagram**
+
+- Install bpmn-js project dependencies and create a symlink in the global folder
 ```
 npm install
+npm link
 ```
 
-Build the application (including [bpmn-js](https://github.com/bpmn-io/bpmn-js)) via
-
+- Go to this project folder and execute
 ```
-npm run all
+npm install
+npm link bpmn-js
 ```
+In this way, you linked the ‘compiled’ bpmn-js module to modeler.
 
-You may also spawn a development setup by executing
-
+- You may also spawn a development setup by executing
 ```
 npm run dev
 ```
