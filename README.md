@@ -15,7 +15,7 @@ This example is a node-style web application that builds a user interface around
 
 You need a [NodeJS](http://nodejs.org) development stack with [npm](https://npmjs.org) installed to build the project and try our example.
 
-You need to check out also our latest bpmn-js branch version and link it to modeler. That’s why we are waiting for bpmn-js integration to create modeler pull request.
+You need to check out also our latest bpmn-js branch version and link it to this project. That’s why we are waiting for bpmn-js integration to create Camunda modeler pull request.
 Follow this steps:
 
 - **Clone our bpmn-js repository** from [here](https://github.com/sharedchains/bpmn-js.git), and checkout branch **feature/multipleDiagram**
